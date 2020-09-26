@@ -1,0 +1,45 @@
+* {
+    background-color:	#000000;
+    border-color:		#FEFEFE;
+    text-color:			#FEFEFE;
+    font:				"MesloLGS NF Regular 9";
+
+	highlight:			#FEFEFE;
+}
+
+#window {
+    anchor:             north;
+    location:           north;
+    width:              100%;
+    height:		        20px;
+    padding:            2px;
+    children:           [horibox];
+}
+
+#horibox {
+    orientation:	    horizontal;
+    children:		    [prompt, entry, listview];
+}
+
+#prompt {
+	padding:            0 5 0 5;
+}
+
+#listview {
+    layout:		        horizontal;
+    spacing:	        5px;
+    lines:		        50;
+}
+
+#entry {
+    expand:	            false;
+    width:	            10em;
+}
+
+#element {
+    padding:            0px 4px;
+}
+#element selected {
+    background-color:	@highlight;
+    text-color:			@background-color;
+}
