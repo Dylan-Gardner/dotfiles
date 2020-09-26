@@ -1,0 +1,12 @@
+include /usr/share/nano/*
+set linenumbers
+set smooth
+set tabsize 4
+set tabstospaces
+set autoindent
+
+set titlecolor brightwhite,normal
+set statuscolor brightwhite,normal
+set numbercolor brightwhite,normal
+set keycolor brightwhite,normal
+set errorcolor brightwhite,red
